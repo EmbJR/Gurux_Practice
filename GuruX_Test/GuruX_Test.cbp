@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GuruX_Test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GuruX_Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GuruX_Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DGX_DLMS_SERVER" />
+			<Add option="-DDLMS_IGNORE_CLIENT" />
+			<Add option="-D_WIN32" />
+			<Add directory="Application/Inc" />
+			<Add directory="development/include" />
+		</Compiler>
+		<Linker>
+			<Add library="ws2_32" />
+		</Linker>
+		<Unit filename="Application/Inc/getopt.h" />
+		<Unit filename="Application/Src/getopt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Application/Src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/include/apdu.h" />
+		<Unit filename="development/include/asn1Parser.h" />
+		<Unit filename="development/include/bigInteger.h" />
+		<Unit filename="development/include/bitarray.h" />
+		<Unit filename="development/include/bytebuffer.h" />
+		<Unit filename="development/include/ciphering.h" />
+		<Unit filename="development/include/cipheringenums.h" />
+		<Unit filename="development/include/client.h" />
+		<Unit filename="development/include/converters.h" />
+		<Unit filename="development/include/cosem.h" />
+		<Unit filename="development/include/crc.h" />
+		<Unit filename="development/include/curve.h" />
+		<Unit filename="development/include/datainfo.h" />
+		<Unit filename="development/include/date.h" />
+		<Unit filename="development/include/dlms.h" />
+		<Unit filename="development/include/dlmssettings.h" />
+		<Unit filename="development/include/eccPoint.h" />
+		<Unit filename="development/include/enums.h" />
+		<Unit filename="development/include/errorcodes.h" />
+		<Unit filename="development/include/gx509Certificate.h" />
+		<Unit filename="development/include/gxPkcs10.h" />
+		<Unit filename="development/include/gxaes.h" />
+		<Unit filename="development/include/gxarray.h" />
+		<Unit filename="development/include/gxdefine.h" />
+		<Unit filename="development/include/gxecdsa.h" />
+		<Unit filename="development/include/gxget.h" />
+		<Unit filename="development/include/gxignore.h" />
+		<Unit filename="development/include/gxint.h" />
+		<Unit filename="development/include/gxinvoke.h" />
+		<Unit filename="development/include/gxkey.h" />
+		<Unit filename="development/include/gxmd5.h" />
+		<Unit filename="development/include/gxmem.h" />
+		<Unit filename="development/include/gxobjects.h" />
+		<Unit filename="development/include/gxserializer.h" />
+		<Unit filename="development/include/gxset.h" />
+		<Unit filename="development/include/gxsetignoremalloc.h" />
+		<Unit filename="development/include/gxsetmalloc.h" />
+		<Unit filename="development/include/gxsha1.h" />
+		<Unit filename="development/include/gxsha256.h" />
+		<Unit filename="development/include/gxsha384.h" />
+		<Unit filename="development/include/gxvalueeventargs.h" />
+		<Unit filename="development/include/helpers.h" />
+		<Unit filename="development/include/lnparameters.h" />
+		<Unit filename="development/include/message.h" />
+		<Unit filename="development/include/notify.h" />
+		<Unit filename="development/include/objectarray.h" />
+		<Unit filename="development/include/parameters.h" />
+		<Unit filename="development/include/privateKey.h" />
+		<Unit filename="development/include/publicKey.h" />
+		<Unit filename="development/include/replydata.h" />
+		<Unit filename="development/include/server.h" />
+		<Unit filename="development/include/serverevents.h" />
+		<Unit filename="development/include/shamirs.h" />
+		<Unit filename="development/include/snparameters.h" />
+		<Unit filename="development/include/variant.h" />
+		<Unit filename="development/src/apdu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/asn1Parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/bigInteger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/bitarray.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/bytebuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/ciphering.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/converters.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/cosem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/curve.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/datainfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/date.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/dlms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/dlmsSettings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/eccPoint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gx509Certificate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxPkcs10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxaes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxarray.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxecdsa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxinvoke.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxkey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxmd5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxobjects.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxserializer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxsetignoremalloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxsetmalloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxsha1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxsha256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxsha384.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/gxvalueeventargs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/notify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/objectarray.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/parameters.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/privateKey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/publicKey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/replydata.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/serverevents.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/shamirs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="development/src/variant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

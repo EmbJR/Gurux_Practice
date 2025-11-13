@@ -1,0 +1,743 @@
+# depslib dependency file v1.0
+1763039415 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\application\src\getopt.c
+	"../include/getopt.h"
+	<string.h>
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\apdu.c
+	"../include/gxignore.h"
+	"../include/gxmem.h"
+	"../include/enums.h"
+	"../include/helpers.h"
+	"../include/apdu.h"
+	"../include/errorcodes.h"
+	"../include/ciphering.h"
+	"../include/serverevents.h"
+
+1763043083 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxignore.h
+	"../ArduinoIgnore.h"
+	"../ArduinoIgnore.h"
+	"../ArduinoIgnore.h"
+	"../ArduinoIgnore.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxmem.h
+	"gxignore.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\enums.h
+	"gxignore.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\helpers.h
+	"gxignore.h"
+	<avr/pgmspace.h>
+	"bytebuffer.h"
+	"variant.h"
+	<pgmspace.h>
+	<avr/pgmspace.h>
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\bytebuffer.h
+	"gxint.h"
+	"gxignore.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxint.h
+	<stdint.h>
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\variant.h
+	"gxignore.h"
+	"date.h"
+	"enums.h"
+	"errorcodes.h"
+	"bytebuffer.h"
+	"bitarray.h"
+	<assert.h>
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\date.h
+	"enums.h"
+	"bytebuffer.h"
+	<time.h>
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\errorcodes.h
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\bitarray.h
+	"gxignore.h"
+	"bytebuffer.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\apdu.h
+	"dlmssettings.h"
+	"bytebuffer.h"
+
+1763043101 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\dlmssettings.h
+	"enums.h"
+	"variant.h"
+	"objectarray.h"
+	"message.h"
+	"gxvalueeventargs.h"
+	"replydata.h"
+	"ciphering.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\objectarray.h
+	"gxignore.h"
+	"gxobjects.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxobjects.h
+	"gxignore.h"
+	"gxint.h"
+	<ws2tcpip.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"enums.h"
+	"variant.h"
+	"date.h"
+	"gxarray.h"
+	"gxkey.h"
+	"gxdefine.h"
+	"privateKey.h"
+	"gx509Certificate.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxarray.h
+	<string.h>
+	"gxint.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxkey.h
+	"gxignore.h"
+	"gxint.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxdefine.h
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\privatekey.h
+	"gxignore.h"
+	"enums.h"
+	"byteBuffer.h"
+	"publicKey.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\publickey.h
+	"gxignore.h"
+	"enums.h"
+	"byteBuffer.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gx509certificate.h
+	"gxignore.h"
+	"bytebuffer.h"
+	"bigInteger.h"
+	"publicKey.h"
+	"enums.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\biginteger.h
+	"gxignore.h"
+	"bytebuffer.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\message.h
+	"gxignore.h"
+	"bytebuffer.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxvalueeventargs.h
+	"gxignore.h"
+	"gxobjects.h"
+	"errorcodes.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\replydata.h
+	"variant.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\ciphering.h
+	"gxignore.h"
+	"bytebuffer.h"
+	"enums.h"
+	"privateKey.h"
+	"publicKey.h"
+
+1763038960 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\serverevents.h
+	"gxignore.h"
+	"dlmssettings.h"
+	"bytebuffer.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\asn1parser.c
+	<string.h>
+	"../include/asn1Parser.h"
+	"../include/helpers.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\asn1parser.h
+	"gxignore.h"
+	"bytebuffer.h"
+	"gx509Certificate.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\biginteger.c
+	"../include/gxmem.h"
+	<assert.h>
+	<crtdbg.h>
+	<string.h>
+	"../include/errorcodes.h"
+	"../include/bigInteger.h"
+	"../include/helpers.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\bitarray.c
+	"../include/gxmem.h"
+	<assert.h>
+	<crtdbg.h>
+	<string.h>
+	"../include/errorcodes.h"
+	"../include/bitarray.h"
+	"../include/helpers.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\bytebuffer.c
+	"../include/gxmem.h"
+	<stdio.h>
+	<assert.h>
+	<crtdbg.h>
+	<string.h>
+	"../include/errorcodes.h"
+	"../include/bytebuffer.h"
+	"../include/helpers.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\ciphering.c
+	"../include/gxignore.h"
+	"../include/gxmem.h"
+	<assert.h>
+	<avr/pgmspace.h>
+	<crtdbg.h>
+	<string.h>
+	"../include/enums.h"
+	"../include/errorcodes.h"
+	"../include/ciphering.h"
+	"../include/helpers.h"
+	"../include/gxaes.h"
+	"../include/serverevents.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxaes.h
+	"gxignore.h"
+	"bytebuffer.h"
+	"enums.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\client.c
+	"../include/gxignore.h"
+	"../include/gxmem.h"
+	<assert.h>
+	<crtdbg.h>
+	"../include/apdu.h"
+	"../include/client.h"
+	"../include/gxkey.h"
+	"../include/gxset.h"
+	"../include/gxget.h"
+	"../include/dlms.h"
+	"../include/cosem.h"
+	"../include/gxsetignoremalloc.h"
+	"../include/gxsetmalloc.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\client.h
+	"gxignore.h"
+	"serverevents.h"
+	"dlms.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\dlms.h
+	"errorcodes.h"
+	"bytebuffer.h"
+	"message.h"
+	"helpers.h"
+	"dlmssettings.h"
+	"apdu.h"
+	"variant.h"
+	"objectarray.h"
+	"replydata.h"
+	"datainfo.h"
+	"parameters.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\datainfo.h
+	"gxint.h"
+	"enums.h"
+	"gxignore.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\parameters.h
+	"../include/gxignore.h"
+	"dlmssettings.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxset.h
+	"../include/gxsetignoremalloc.h"
+	"../include/gxsetmalloc.h"
+	"gxobjects.h"
+	"dlmssettings.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxsetignoremalloc.h
+	"gxignore.h"
+	"gxobjects.h"
+	"dlmssettings.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxsetmalloc.h
+	"gxignore.h"
+	"gxobjects.h"
+	"dlmssettings.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxget.h
+	"gxobjects.h"
+	"dlmssettings.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\cosem.h
+	"gxobjects.h"
+	"dlmssettings.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\converters.c
+	<Ws2tcpip.h>
+	<assert.h>
+	<stdio.h>
+	<crtdbg.h>
+	"../include/gxignore.h"
+	"../include/converters.h"
+	"../include/gxobjects.h"
+	"../include/gxmem.h"
+	<string.h>
+	"../include/objectarray.h"
+	"../include/gxkey.h"
+	"../include/enums.h"
+	<string.h>
+	"../include/helpers.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\converters.h
+	"gxignore.h"
+	"errorcodes.h"
+	"variant.h"
+	"gxarray.h"
+	"gxobjects.h"
+	"enums.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\cosem.c
+	"../include/gxignore.h"
+	<assert.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	"../include/enums.h"
+	"../include/datainfo.h"
+	"../include/dlms.h"
+	"../include/cosem.h"
+	"../include/helpers.h"
+	"../include/lnparameters.h"
+	"../include/snparameters.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\lnparameters.h
+	"dlmssettings.h"
+	"bytebuffer.h"
+	"enums.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\snparameters.h
+	"gxignore.h"
+	"dlmssettings.h"
+	"bytebuffer.h"
+	"enums.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\curve.c
+	"../include/curve.h"
+	"../include/errorcodes.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\curve.h
+	"gxignore.h"
+	"enums.h"
+	"bigInteger.h"
+	"eccPoint.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\eccpoint.h
+	"gxignore.h"
+	"bigInteger.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\datainfo.c
+	"../include/datainfo.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\date.c
+	"../include/gxignore.h"
+	<assert.h>
+	<time.h>
+	<string.h>
+	<stdio.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	"../include/date.h"
+	"../include/helpers.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\dlms.c
+	"../include/gxignore.h"
+	"../include/serverevents.h"
+	<assert.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	"../include/enums.h"
+	"../include/dlms.h"
+	"../include/ciphering.h"
+	"../include/crc.h"
+	"../include/cosem.h"
+	"../include/gxobjects.h"
+	"../include/date.h"
+	"../include/gxmd5.h"
+	"../include/gxsha256.h"
+	"../include/gxsha1.h"
+	"../include/gxaes.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\crc.h
+	"gxignore.h"
+	<avr/pgmspace.h>
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxmd5.h
+	"gxignore.h"
+	"bytebuffer.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxsha256.h
+	"gxignore.h"
+	"bytebuffer.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxsha1.h
+	"gxignore.h"
+	"bytebuffer.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\dlmssettings.c
+	"../include/gxmem.h"
+	"../include/dlmssettings.h"
+	<assert.h>
+	<stdio.h>
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\eccpoint.c
+	"../include/curve.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gx509certificate.c
+	<string.h>
+	"../include/gx509Certificate.h"
+	"../include/gxdefine.h"
+	"../include/helpers.h"
+	"../include/errorcodes.h"
+	"../include/asn1Parser.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxaes.c
+	"../include/gxignore.h"
+	<string.h>
+	<stdint.h>
+	"../include/errorcodes.h"
+	"../include/gxaes.h"
+	<avr/pgmspace.h>
+	"../include/ciphering.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxarray.c
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	"../include/errorcodes.h"
+	"../include/gxarray.h"
+	"../include/bytebuffer.h"
+	"../include/gxkey.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxecdsa.c
+	"../include/gxecdsa.h"
+	"../include/helpers.h"
+	"../include/errorcodes.h"
+	"../include/bigInteger.h"
+	"../include/eccPoint.h"
+	"../include/curve.h"
+	"../include/shamirs.h"
+	"../include/gxsha256.h"
+	"../include/gxsha384.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxecdsa.h
+	"gxignore.h"
+	"gxignore.h"
+	"privateKey.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\shamirs.h
+	"gxignore.h"
+	"curve.h"
+	"publickey.h"
+	"bytebuffer.h"
+	"bigInteger.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxsha384.h
+	"gxignore.h"
+	"bytebuffer.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxget.c
+	<assert.h>
+	"../include/gxignore.h"
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	<math.h>
+	"../include/gxget.h"
+	"../include/gxarray.h"
+	"../include/bitarray.h"
+	"../include/cosem.h"
+	"../include/dlms.h"
+	"../include/gxkey.h"
+	"../include/helpers.h"
+	"../include/serverevents.h"
+	"../include/gxinvoke.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxinvoke.h
+	"gxignore.h"
+	"gxobjects.h"
+	"dlmssettings.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxinvoke.c
+	"../include/gxignore.h"
+	<assert.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	"../include/cosem.h"
+	"../include/dlms.h"
+	"../include/gxset.h"
+	"../include/gxinvoke.h"
+	"../include/helpers.h"
+	"../include/objectarray.h"
+	"../include/ciphering.h"
+	"../include/gxget.h"
+	"../include/gxkey.h"
+	"../include/serverevents.h"
+	"../include/gxecdsa.h"
+	"../include/gxpkcs10.h"
+	"../include/gx509Certificate.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxpkcs10.h
+	"gxignore.h"
+	"bytebuffer.h"
+	"privateKey.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxkey.c
+	"../include/gxmem.h"
+	"../include/gxkey.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxmd5.c
+	"../include/gxignore.h"
+	<string.h>
+	"../include/gxmd5.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxobjects.c
+	<assert.h>
+	<stdio.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	"../include/helpers.h"
+	"../include/gxobjects.h"
+	"../include/objectarray.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxpkcs10.c
+	<stddef.h>
+	"../include/gxPkcs10.h"
+	"../include/errorcodes.h"
+	"../include/gxecdsa.h"
+	"../include/helpers.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxserializer.c
+	"../include/gxignore.h"
+	"../include/gxmem.h"
+	"../include/gxserializer.h"
+	"../include/helpers.h"
+	"../include/objectarray.h"
+	"../include/cosem.h"
+	"../include/dlms.h"
+	"../include/bytebuffer.h"
+	"../include/serverevents.h"
+	<assert.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\gxserializer.h
+	"gxignore.h"
+	"gxobjects.h"
+	"dlmssettings.h"
+	<stdlib.h>
+	<stdio.h>
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxset.c
+	"../include/gxignore.h"
+	<assert.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	"../include/gxset.h"
+	"../include/cosem.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxsetignoremalloc.c
+	"../include/gxignore.h"
+	<assert.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	<math.h>
+	"../include/gxset.h"
+	"../include/dlms.h"
+	"../include/gxkey.h"
+	"../include/cosem.h"
+	"../include/gxget.h"
+	"../include/server.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\server.h
+	"gxignore.h"
+	"serverevents.h"
+	"dlms.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxsetmalloc.c
+	"../include/gxignore.h"
+	<assert.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	<math.h>
+	"../include/gxset.h"
+	"../include/dlms.h"
+	"../include/gxkey.h"
+	"../include/cosem.h"
+	"../include/gxget.h"
+	"../include/server.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxsha1.c
+	"../include/gxignore.h"
+	<string.h>
+	"../include/gxsha1.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxsha256.c
+	"../include/gxignore.h"
+	<string.h>
+	"../include/gxsha256.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxsha384.c
+	"../include/gxignore.h"
+	<string.h>
+	"../include/gxsha384.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\gxvalueeventargs.c
+	"../include/gxmem.h"
+	<crtdbg.h>
+	"../include/gxvalueeventargs.h"
+	"../include/objectarray.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\helpers.c
+	<stdio.h>
+	<crtdbg.h>
+	<string.h>
+	<math.h>
+	"../include/gxmem.h"
+	<windows.h>
+	<stdio.h>
+	"../include/helpers.h"
+	"../include/errorcodes.h"
+	<direct.h>
+	<errno.h>
+	<sys/stat.h>
+	<stdio.h>
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\message.c
+	"../include/gxignore.h"
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<string.h>
+	"../include/message.h"
+	"../include/errorcodes.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\notify.c
+	"../include/gxignore.h"
+	<assert.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	"../include/notify.h"
+	"../include/cosem.h"
+	"../include/gxset.h"
+	"../include/serverevents.h"
+
+1761720756 g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\include\notify.h
+	"gxignore.h"
+	"dlms.h"
+	"gxget.h"
+	"gxkey.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\objectarray.c
+	"../include/gxmem.h"
+	<crtdbg.h>
+	<stdio.h>
+	<string.h>
+	"../include/objectarray.h"
+	"../include/helpers.h"
+	<stdio.h>
+	"../include/helpers.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\parameters.c
+	"../include/parameters.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\privatekey.c
+	"../include/privateKey.h"
+	"../include/bytebuffer.h"
+	"../include/errorcodes.h"
+	"../include/bigInteger.h"
+	"../include/curve.h"
+	"../include/shamirs.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\publickey.c
+	"../include/publicKey.h"
+	"../include/errorcodes.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\replydata.c
+	<string.h>
+	"../include/gxmem.h"
+	<crtdbg.h>
+	"../include/replydata.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\server.c
+	"../include/gxignore.h"
+	<assert.h>
+	<stdlib.h>
+	<crtdbg.h>
+	"../include/gxmem.h"
+	"../include/apdu.h"
+	"../include/server.h"
+	"../include/dlms.h"
+	"../include/cosem.h"
+	"../include/enums.h"
+	"../include/gxset.h"
+	"../include/gxget.h"
+	"../include/gxinvoke.h"
+	"../include/gxserializer.h"
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\serverevents.c
+	"../include/serverevents.h"
+	"../include/bytebuffer.h"
+	<stdio.h>
+	<inttypes.h>
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\shamirs.c
+	"../include/shamirs.h"
+	"../include/gxmem.h"
+	<crtdbg.h>
+
+1761720756 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\development\src\variant.c
+	<assert.h>
+	"../include/gxmem.h"
+	<stdio.h>
+	<crtdbg.h>
+	<string.h>
+	"../include/variant.h"
+	"../include/errorcodes.h"
+	"../include/helpers.h"
+
+1763039816 source:g:\new\ascenten_general\gurux\codeblocks_project_for_gurux\gurux_test\application\src\main.c
+	<stdio.h>
+	<crtdbg.h>
+	<tchar.h>
+	<conio.h>
+	<Winsock2.h>
+	<time.h>
+	<process.h>
+	"../include/getopt.h"
+	<stdlib.h>
+	<unistd.h>
+	<pthread.h>
+	<termios.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<string.h>
+	<sys/time.h>
+	<errno.h>
+	<fcntl.h>
+	"../../development/include/gxmem.h"
+	"../../development/include/dlmssettings.h"
+	"../../development/include/variant.h"
+	"../../development/include/cosem.h"
+	"../../development/include/server.h"
+	"../../development/include/notify.h"
+	"../../development/include/gxserializer.h"
+
