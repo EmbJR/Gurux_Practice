@@ -1,0 +1,1 @@
+This is the base project consists of GuruX Server example tested with 2 PCs using TCP.
